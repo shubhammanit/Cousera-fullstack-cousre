@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  
+}
+body{
+	
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+div 
+{
+	border: 1px solid black;
+	background-color: 	#c2c2a3;
+
+	
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom :5px;
+    float:right;
+    padding:5px;
+}
+#heading1
+{
+	background-color: #ffd966;
+}
+#heading2
+{
+	background-color: #ff66ff;
+}
+#heading3
+{
+	background-color: #66ccff;
+}
+
+
+div >p {
+  
+  
+  width: 90%;
+  height: 200px;
+  padding:5px;
+  margin-left :auto;
+  margin-right:auto;
+  font-family: Helvetica;
+  
+  clear : right;
+  overflow: auto;
+}
+#col1,#col2,#col3
+{
+	width:95%;
+	margin:2%;
+}
+
+/* For large devices */
+@media (min-width:992px){
+	#col1 , #col2, #col3{
+		float : left;
+		border : 1px solid black;
+		width:30%;
+		margin:1.6%;
+
+		
+	}
+}
+/* For tablet */
+@media (min-width:768px) and (max-width: 991px){
+	#col1,#col2,#col3 {
+		float:left;
+
+		border:1px solid black;
+		
+
+	}
+	#col1,#col2{
+		width:45%;
+		margin:1.6%;
+		
+	}
+	#col3{
+		width:93%;
+		margin:1.6%;
+	}	
+
+}
+
